@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cube CSS Example 1</title>
+  </head>
+  <body>
+    <div class="[ card ] [ bg-neutral-100 text-align-center br-2 ]">
+      <img
+        class="card__image"
+        src="/images/undraw_compose_music_ovo2.svg"
+        alt="hero"
+      />
+      <div class="[ card_content ] [ grid-flow ] [ padding-48 ]">
+        <h2>Order Summary</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam
+          placeat doloribus suscipit corporis illo, ipsa id similique odit
+          commodi.
+        </p>
+
+        <div
+          class="[ flex-row ] [ bg-neutral-200 text-align-left br-1 padding-24 ]"
+        >
+          <div class="icon">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"
+              ></path>
+            </svg>
+          </div>
+          <div>
+            <p class="text-neutral-800 fw-black">Annual Plan</p>
+            <p>$59.99/year</p>
+          </div>
+          <button class="link">Change</button>
+        </div>
+        <button class="button" data-type="primary">Proceed to Payment</button>
+        <button class="button" data-type="naked">Cancel Order</button>
+      </div>
+    </div>
+  </body>
+</html>
